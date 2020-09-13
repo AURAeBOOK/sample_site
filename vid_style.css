@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/car1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    height: 100vh;
+}
+h1
+{
+    color: black;
+    text-align: center;
+    font-size: 70px;
+    background-color: cornflowerblue; 
+}
+.home
+{
+    float: right;
+    background-color: cornsilk;
+    margin-top: 30px;
+    
+}
+.home a
+{
+    padding: 5px 20px;
+    border: 1px white;
+    text-align: center;
+    color: black;
+}
+.home a:hover
+{
+    color: black;
+}
+.home btn
+{
+    display: inline-block; 
+    text-align: center;
+}
+.song1
+{
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%,-50%); 
+}
+.song2
+{
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    top: 40%;
+    left: 70%;
+    transform: translate(-50%,-50%); 
+}
+.song3
+{
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    top: 79%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+}
